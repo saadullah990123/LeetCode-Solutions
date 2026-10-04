@@ -7,7 +7,7 @@ for (int  i  = 0 ; i < n ; i++){
  if(tracker.find(nums[i])!=tracker.end()){
     return true;
  }
- tracker[nums[i]]++;
+ tracker[nums[i]]=1;
 }
 return false;
     }
